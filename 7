@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	double A,k,n;
+	cout << "Vvedite A" << endl;
+	cin >> A;
+	n = A;
+	k = A * A;
+	A = k * k;
+	k = A * A;
+	A = k * k;
+	k = A * (1 / n);
+	cout << "A^15=" << k;
+}
