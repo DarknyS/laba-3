@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	double A, B, C, k, n;
+	cout << "Vvedite A i B a zatem C" << endl;
+	cin >> A >> B >> C;
+	k = A;
+	n = B;
+	B = A;
+	k = C;
+	C = n;
+	A = k;
+    cout << "A=" << A << " " << "B=" << B << " " << "C=" << C;
+}
